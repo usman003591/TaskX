@@ -2,9 +2,9 @@
 
 namespace TaskX.Models
 {
-    public class Task
+    public class TodoTask
     {
-        //[Key] is not necessary here as the Id property is already the primary key by convention
+        [Key] //is not necessary here as the Id property is already the primary key by convention
         public int Id { get; set; } //As the name of the attribute is Id or includes the Id word in it, it will be used as the primary key by default
 
         [Required]
